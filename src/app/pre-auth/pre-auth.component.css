@@ -1,0 +1,49 @@
+#main
+{
+	width: 100%;
+	margin: auto;
+	text-decoration: none;
+}
+header
+{
+	float: left;
+	width: 100%;
+	background-color: #5499c7;
+
+}
+header h1
+{
+	float: left;
+	margin-left: 3%;
+	color: white;
+
+}
+header nav
+{
+	float: right;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	width: 50%;
+}
+header nav ul li
+{
+	float: left;
+	list-style-type: none;
+	margin-left: 5%;
+
+}
+
+nav a
+{
+ color: white;
+ text-decoration: none;
+
+
+
+
+}
+nav a:hover
+{
+	color: red;
+
+}

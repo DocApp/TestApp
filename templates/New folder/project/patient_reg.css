@@ -1,0 +1,44 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:SlateBlue ;
+}
+h1
+{
+	color:white;
+	text-align: center;
+	font-style: italic;
+}
+.reg
+{
+	text-align: center;
+	margin:10px 0px;
+}
+#registration
+{
+	width: 40%;
+	background-color:LightBlue;
+	opacity:0.8;
+	padding: 50px 0px;
+	margin: auto;
+}
+#name
+{
+	width:250px;
+	outline: 0;
+	padding: 5px;
+	border-radius: 5px;
+}
+#ch
+{
+	font-style: italic;
+}
+#sub
+{
+	width: 30%;
+	height:5%;
+		border-radius: 5px;
+}

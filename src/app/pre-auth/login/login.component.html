@@ -1,0 +1,40 @@
+
+	<div id="main">
+		<header>
+			<h1>Easy to communicate</h1>
+			<nav>
+				<ul>
+				<li><a href="#">Contact us</a></li>	
+				<li><a href="#">About us</a></li>
+				<li><a href="patient_login.html">Login</a></li>
+				</ul>
+			</nav>
+			<nav>
+				<ul>
+				<li><a href="#"><b>Home</b></a></li>
+				<li><a href="#"><b>Location</b></a></li>
+				<li><a href="#"><b>Specialization</b></a></li>
+				</ul>
+		</nav>
+		</header>
+  <h1>Log In</h1><br>
+   <div class="login">
+		<form id="login" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+		
+	    <input type="email" name="email" formControlName="email" placeholder="Enter your mail id" id="name" required=""><br><br>
+		<div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+			<div *ngIf="f.email.errors.required">Email is required</div>
+			<div *ngIf="f.email.errors.email">Email must be a valid email address</div>
+		</div>
+
+		<input type="password" name="password" formControlName="password" placeholder="Enter your password" id="name" required=""><br><br>
+		<div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+			<div *ngIf="f.password.errors.required">Password is required</div>
+			<div *ngIf="f.password.errors.minlength">Password must be at least 6 characters</div>
+		</div>
+
+
+		<button type="submit" id ="sub1">Log in</button><br><br>
+		 Do not have an account? <a routerLink="/register">Sign up</a>
+	</form>
+</div>

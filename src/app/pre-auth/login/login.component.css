@@ -1,0 +1,84 @@
+#main
+{
+	width: 100%;
+	margin: auto;
+	text-decoration: none;
+}
+header
+{
+	float: left;
+	width: 100%;
+	background-color: #5499c7;
+
+}
+header h1
+{
+	float: left;
+	margin-left: 3%;
+	color: white;
+
+}
+header nav
+{
+	float: right;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	width: 50%;
+}
+header nav ul li
+{
+	float: left;
+	list-style-type: none;
+	margin-left: 5%;
+
+}
+
+nav a
+{
+ color: white;
+ text-decoration: none;
+
+
+
+
+}
+nav a:hover
+{
+	color: red;
+
+}
+body{
+	background-color:Blue ;
+}
+h1
+{
+	color:white;
+	text-align: center;
+	font-style: italic;
+}
+.login
+{
+	text-align: center;
+	margin:10px 0px;
+}
+#login
+{
+	width: 30%;
+	background-color:LightBlue;
+	opacity:0.8;
+	padding: 50px 0px;
+	margin: auto;
+}
+#name
+{
+	width:250px;
+	outline: 0;
+	padding: 5px;
+	border-radius: 5px;
+}
+#sub1
+{
+	width: 30%;
+	height:5%;
+		border-radius: 5px;
+}
